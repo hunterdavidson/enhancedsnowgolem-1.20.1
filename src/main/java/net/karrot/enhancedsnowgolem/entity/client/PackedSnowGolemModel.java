@@ -5,8 +5,7 @@ import net.fabricmc.api.Environment;
 import net.karrot.enhancedsnowgolem.entity.custom.PackedSnowGolemEntity;
 import net.minecraft.client.render.entity.model.SnowGolemEntityModel;
 import net.minecraft.client.model.ModelPart;
-
-@Environment(value= EnvType.CLIENT)
+@Environment(EnvType.CLIENT)
 public class PackedSnowGolemModel<T extends PackedSnowGolemEntity>
         extends SnowGolemEntityModel<T> {
 

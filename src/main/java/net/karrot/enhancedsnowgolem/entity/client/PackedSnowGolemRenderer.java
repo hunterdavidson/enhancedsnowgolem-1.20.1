@@ -10,7 +10,8 @@ import net.minecraft.client.render.entity.model.EntityModelLayers;
 import net.minecraft.client.render.entity.model.SnowGolemEntityModel;
 import net.minecraft.entity.passive.SnowGolemEntity;
 import net.minecraft.util.Identifier;
-@Environment(value=EnvType.CLIENT)
+
+@Environment(EnvType.CLIENT)
 public class PackedSnowGolemRenderer
         extends MobEntityRenderer<SnowGolemEntity, SnowGolemEntityModel<SnowGolemEntity>> {
     private static final Identifier TEXTURE = new Identifier(EnhancedSnowGolem.MOD_ID, "textures/entity/packed_snow_golem.png");
