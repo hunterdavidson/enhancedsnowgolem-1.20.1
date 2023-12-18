@@ -2,6 +2,9 @@
 	"required": true,
 	"package": "net.karrot.enhancedsnowgolem.mixin",
 	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"CarvedPumpkinBlockMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}

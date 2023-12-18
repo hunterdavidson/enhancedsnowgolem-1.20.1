@@ -13,15 +13,15 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item PACKED_SNOWBALL = registerItem("packed_snowball", new PackedSnowballItem(new FabricItemSettings()));
+    public static final Item PACKED_SNOWBALL = registerItem(new PackedSnowballItem(new FabricItemSettings()));
 
     private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(PACKED_SNOWBALL);
     }
 
-    private static Item registerItem(String name, Item item) {
+    private static Item registerItem(Item item) {
 
-        return Registry.register(Registries.ITEM, new Identifier(EnhancedSnowGolem.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(EnhancedSnowGolem.MOD_ID, "packed_snowball"), item);
     }
 
     public static void registerModItems() {

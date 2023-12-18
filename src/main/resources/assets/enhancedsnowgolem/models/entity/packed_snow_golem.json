@@ -1,0 +1,7 @@
+{
+  "parent": "entity/generated",
+  "textures": {
+    "layer0": "enhancedsnowgolem:entity/packed_snow_golem",
+    "pumpkin": "minecraft:block/pumpkin"
+  }
+}
